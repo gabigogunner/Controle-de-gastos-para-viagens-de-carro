@@ -20,7 +20,7 @@ public class CarroTeste {
         CalculosFinanceiro calculo1 = new CalculosFinanceiro();
         double calculoCarro = calculo1.calcularGastoCarro(carro1, pessoasNaRacha, precoGasolina, valorEstacionamento, distanciaPercorrida);  
         double calculoUber = calculo1.calcularGastoUber(pessoasNaRacha, precoUber);  
-        System.out.printf("Indo de %s, será gasto: R$%.2f, já de Uber R$%.2f", carro1.getNomeCarro(), calculoCarro, calculoUber);
+        System.out.printf("Indo de %s, será gasto: R$%.2f, já de Uber R$%.2f \n", carro1.getNomeCarro(), calculoCarro, calculoUber);
         scanner.close();
 
     }
